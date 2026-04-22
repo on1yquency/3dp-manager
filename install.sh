@@ -468,7 +468,7 @@ EOF
 cat > docker-compose.yml <<EOF
 services:
   postgres:
-    image: postgres:18-alpine
+    image: postgres:16-alpine
     container_name: 3dp-postgres
     restart: always
     environment:
@@ -579,7 +579,7 @@ EOF
 cat > docker-compose.yml <<EOF
 services:
   postgres:
-    image: postgres:18-alpine
+    image: postgres:16-alpine
     container_name: 3dp-postgres
     restart: always
     environment:
